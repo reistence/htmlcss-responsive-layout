@@ -118,12 +118,6 @@ header {
 .card-txt button i {
   margin-right: 1em;
 }
-.card-img {
-  /* background-color: blue; */
-}
-.card-symbol {
-  /* background-color: green; */
-}
 
 /* SECTION 2 PLANNING */
 #planning {
@@ -459,7 +453,7 @@ footer {
   /* SECTION 1 FEATURES */
   .card:first-child {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
   }
   .card-txt:first-child {
     width: 50%;
