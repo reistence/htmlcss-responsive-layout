@@ -26,7 +26,7 @@ img {
   width: 100%;
 }
 .container {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
   border: 1px solid black;
 }
@@ -44,10 +44,12 @@ header {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 999;
+  padding: 1em 0;
 }
 
 .header-container {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -66,6 +68,7 @@ header {
 /* SECTION 1 FEATURES */
 #features {
   margin-top: 5em;
+  padding: 2em 0;
 }
 .card-wrapper {
   display: flex;
@@ -75,6 +78,7 @@ header {
 
 .card {
   /* margin-bottom: 1em; */
+  background-color: #b5ddff;
 }
 
 .card-txt {
@@ -87,8 +91,27 @@ header {
   background-color: green;
 }
 
+/* SECTION 2 PLANNING */
+#planning {
+  background-color: #9792e4;
+}
+
+.strategic {
+  margin-bottom: 2em;
+  padding: 1em 0;
+  color: white;
+}
+.app-dev {
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+}
+
 /* TABLET */
 @media screen and (min-width: 768px) {
+  /* COMMON */
+
+  /* SECTION 1 FEATURES */
   .card-wrapper {
     display: flex;
     flex-direction: row;
@@ -105,9 +128,12 @@ header {
 
 /* DESKTOP */
 @media screen and (min-width: 992px) {
+  /* COMMON */
   .container {
     width: 70%;
   }
+
+  /* HEADER */
   .ham-menu {
     display: none;
   }
@@ -129,5 +155,17 @@ header {
     padding: 0.5em 1em;
     vertical-align: middle;
     border-radius: 20px;
+  }
+
+  /* SECTION 2 PLANNING */
+  .wrapper {
+    display: flex;
+    align-items: flex-end;
+  }
+  .strategic {
+    width: 48%;
+  }
+  .app-dev {
+    width: 48%;
   }
 }
