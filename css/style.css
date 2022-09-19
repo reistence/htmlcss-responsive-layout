@@ -125,7 +125,7 @@ header {
 }
 .partner img {
   border-radius: 50%;
-  width: 100%;
+
   height: 30vw;
 }
 .partner-name {
@@ -135,6 +135,7 @@ header {
 /* SECTION 4 BENEFITS */
 #benefits {
   background-color: #9792e4;
+  padding: 2em 0;
 }
 #benefits .container h2 {
   color: white;
@@ -146,6 +147,36 @@ header {
   padding: 1em;
   margin: 0 auto;
   margin-bottom: 2em;
+}
+
+/* SECTION 5 ABOUT */
+#about {
+  padding: 2em 0;
+}
+#about h2 {
+  color: #9792e4;
+  font-size: 3rem;
+}
+.about-left {
+  line-height: 3rem;
+  font-size: 1.5rem;
+}
+.about-img {
+  width: 50%;
+}
+.about-img img {
+  border-radius: 50%;
+}
+.about-right h3 {
+  font-size: 2rem;
+  color: #9792e4;
+  margin-bottom: 2em;
+}
+.about-right button {
+  background-color: #9792e4;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+  color: white;
 }
 
 /* TABLET */
@@ -182,6 +213,20 @@ header {
   .benefit-card {
     width: calc(100% / 2 - 0.5em);
     margin: 0;
+  }
+
+  /* SECTION 5 ABOUT */
+
+  .about-wrapper {
+    display: flex;
+    gap: 1em;
+  }
+  .about-left {
+    width: 60%;
+    line-height: normal;
+  }
+  .about-right {
+    width: 40%;
   }
 }
 
