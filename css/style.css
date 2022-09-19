@@ -94,6 +94,7 @@ header {
 /* SECTION 2 PLANNING */
 #planning {
   background-color: #9792e4;
+  padding: 2em 0;
 }
 
 .strategic {
@@ -105,6 +106,46 @@ header {
   text-align: center;
   background-color: white;
   border-radius: 20px;
+}
+
+/* SECTION 3 TESTIMONIALS */
+.expert-partners {
+  text-align: center;
+}
+.partner {
+  background-color: #9792e4;
+  padding: 2em;
+  color: white;
+  border-radius: 40px;
+  margin-bottom: 2em;
+}
+.partner-img {
+  margin: 0 auto;
+  width: 50%;
+}
+.partner img {
+  border-radius: 50%;
+  width: 100%;
+  height: 30vw;
+}
+.partner-name {
+  text-align: center;
+}
+
+/* SECTION 4 BENEFITS */
+#benefits {
+  background-color: #9792e4;
+}
+#benefits .container h2 {
+  color: white;
+}
+
+.benefit-card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 1em;
+  margin: 0 auto;
+  margin-bottom: 2em;
 }
 
 /* TABLET */
@@ -123,6 +164,24 @@ header {
   }
   .card-wrapper .card:first-child {
     width: calc(100% / 3 * 2 - 1.5rem / 3);
+  }
+
+  /* SECTION 3 TESTIMONIALS */
+  .partner {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  /* SECTION 4 BENEFITS */
+  .benefit-wrapper {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+  }
+  .benefit-card {
+    width: calc(100% / 2 - 0.5em);
+    margin: 0;
   }
 }
 
@@ -167,5 +226,10 @@ header {
   }
   .app-dev {
     width: 48%;
+  }
+
+  /* SECTION 4 BENEFITS */
+  .benefit-card {
+    width: calc(100% / 3 - (2em / 3));
   }
 }
