@@ -179,6 +179,60 @@ header {
   color: white;
 }
 
+/* SECTION 6 GET STARTED */
+#get-started {
+  background-color: #9792e4;
+  padding: 2em 0;
+}
+.started-container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+.started-container h3 {
+  font-weight: 100;
+  color: #d1d0f3;
+}
+.started-container h2 {
+  font-size: 2.5rem;
+}
+.started-container h4 {
+  color: #fdc15f;
+  font-size: 3.5rem;
+}
+.started-container button {
+  background-color: white;
+  padding: 0.8em 3em;
+  border-radius: 30px;
+  color: #9792e4;
+  font-size: 1.5rem;
+  margin: 1em 0;
+}
+#privacy {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+  background-color: #333333;
+  color: white;
+}
+.footer-container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2em 0;
+}
+.footer-container p {
+  padding: 2em 0;
+}
+
+.footer-container p a {
+  color: #9792e4;
+  text-decoration: underline;
+}
+
 /* TABLET */
 @media screen and (min-width: 768px) {
   /* COMMON */
@@ -228,6 +282,15 @@ header {
   .about-right {
     width: 40%;
   }
+  /* SECTION 6 GET STARTED */
+  .started-container {
+    width: 70%;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    width: 70%;
+  }
 }
 
 /* DESKTOP */
@@ -276,5 +339,14 @@ header {
   /* SECTION 4 BENEFITS */
   .benefit-card {
     width: calc(100% / 3 - (2em / 3));
+  }
+
+  /* SECTION 6 GET STARTED */
+  .started-container {
+    width: 40%;
+  }
+  /* FOOTER */
+  .footer-container {
+    width: 35%;
   }
 }
