@@ -63,6 +63,33 @@ header {
   display: none;
   color: white;
 }
+/* HAMBURGER MENU */
+.ham-menu i {
+  position: relative;
+}
+
+.ham-menu:hover .sub-menu {
+  display: block;
+}
+.sub-menu {
+  position: absolute;
+  top: 100%;
+  right: 10%;
+  background-color: white;
+  width: 30%;
+  text-align: right;
+  color: #0184fd;
+  font-size: 1.2rem;
+  display: none;
+}
+
+.sub-menu > * {
+  padding: 1em;
+}
+
+.sub-menu > *:hover {
+  border-bottom: 2px solid #0184fd;
+}
 
 /* SECTION 1 FEATURES */
 #features {
