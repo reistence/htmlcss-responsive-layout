@@ -97,7 +97,9 @@ header {
   font-size: 5rem;
   margin-bottom: 0.3em;
 }
-
+.card-img img {
+  display: block;
+}
 .card-txt:not(:first-child) {
   text-align: center;
 }
@@ -453,7 +455,8 @@ footer {
   /* SECTION 1 FEATURES */
   .card:first-child {
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
+    padding-top: 0%;
   }
   .card-txt:first-child {
     width: 50%;
