@@ -420,7 +420,7 @@ footer {
     padding: 1em;
   }
   .partner-img img {
-    width: 100%;
+    width: 20vw;
     height: 20vw;
   }
   .partner-name {
@@ -532,9 +532,9 @@ footer {
   /* SECTIO 3 TESTIMONIALS  */
   .partner-img {
     width: 80%;
-    margin-right: 1.5em;
   }
   .partner-img img {
+    width: 15vw;
     height: 15vw;
   }
 
